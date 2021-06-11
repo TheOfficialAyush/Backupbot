@@ -15,7 +15,7 @@ client.on("message", message => {
         .join()
         .then(async connection => {
           const dispatcher = connection.play(
-            "https://discord.com/channels/@me/769651645708763158/852729020482715698"
+            "https://youtu.be/poHddX-d44Q"
           );
           dispatcher.on("finish", end => {
             voiceChannel.leave();
