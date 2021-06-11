@@ -15,7 +15,7 @@ client.on("message", message => {
         .join()
         .then(async connection => {
           const dispatcher = connection.play(
-            "https://drive.google.com/file/d/1oj5X091YFf0S4_Fxy2iE5lgR7yBxUt-L/view?usp=sharing"
+            "https://discord.com/channels/@me/769651645708763158/852729020482715698"
           );
           dispatcher.on("finish", end => {
             voiceChannel.leave();
