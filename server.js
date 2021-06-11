@@ -15,7 +15,7 @@ client.on("message", message => {
         .join()
         .then(async connection => {
           const dispatcher = connection.play(
-            "https://github.com/TheOfficialAyush/Backupbot/blob/main/backup%20bot.mp3"
+            "backup bot.mp3"
           );
           dispatcher.on("finish", end => {
             voiceChannel.leave();
