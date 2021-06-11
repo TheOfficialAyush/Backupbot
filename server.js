@@ -5,7 +5,7 @@ client.on("ready", function() {
   console.log("Connected");
 });
 client.on('ready', async () => {
-  client.user.setActivity("24/7 | TheOfficialAyush#0001",{type: "LISTENING"})
+  client.user.setActivity("24/7 | TheOfficialAyush#3282",{type: "LISTENING"})
      }); 
 client.on("message", message => {
   if (message.content.startsWith(`<@!${client.user.id}>`)) {
@@ -15,7 +15,7 @@ client.on("message", message => {
         .join()
         .then(async connection => {
           const dispatcher = connection.play(
-            "https://drive.google.com/file/d/1F2VnogbL_-LLm9Ag9kW7XQCuFTZCgpOH/view?usp=sharing"
+            "https://drive.google.com/file/d/1oj5X091YFf0S4_Fxy2iE5lgR7yBxUt-L/view?usp=sharing"
           );
           dispatcher.on("finish", end => {
             voiceChannel.leave();
